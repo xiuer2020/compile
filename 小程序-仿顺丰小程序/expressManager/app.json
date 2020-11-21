@@ -1,10 +1,11 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/personInfo/personInfo",
+    "pages/index/index", 
     "pages/packageInfo/packageInfo",
-    "pages/msg/msg",
-    "pages/search/search"
+    "pages/personInfo/personInfo",
+    "pages/search/search",
+    "pages/insured/insured",
+    "pages/msg/msg"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -36,16 +37,11 @@
   },
   "usingComponents": {
     "type": "./componets/type/type",
-    "list": "./componets/list/list",
-    "borderIcon": "./componets/borderIcon/borderIcon",
-    "_list": "./componets/_list/_list",
-    "formLayout": "./componets/formLayout/formLayout",
+    "baseFlex": "./componets/baseFlex/baseFlex",
     "pageTitle": "./componets/pageTitle/pageTitle",
     "mp-msg": "/miniprogram_npm/weui-miniprogram/msg/msg",
-    "mp-halfScreenDialog": "/miniprogram_npm/weui-miniprogram/half-screen-dialog/half-screen-dialog"
-  },
-  "useExtendedLib": {
-    "kbone": true,
-    "weui": true
+    "mp-halfScreenDialog": "/miniprogram_npm/weui-miniprogram/half-screen-dialog/half-screen-dialog",
+    "mp-cell": "/miniprogram_npm/weui-miniprogram/cell/cell",
+    "mp-cells": "/miniprogram_npm/weui-miniprogram/cells/cells"
   }
 }

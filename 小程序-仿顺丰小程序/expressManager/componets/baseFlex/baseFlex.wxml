@@ -1,0 +1,3 @@
+<view class="base-flex {{jc}} {{fxw}} {{ai}}" style="{{supplement}}" >
+  <slot></slot>
+</view>
